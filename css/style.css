@@ -1,0 +1,63 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins&display=swap');
+
+/* Common Styles */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.general-button{
+    background: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
+    border-radius: 6px;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white;
+}
+.general-button:hover{
+    color: white;
+}
+.highlight-color{
+    color: #363958;
+}
+/* Navbar */
+.navigation{
+    margin-bottom: 30px;
+}
+/* Top section */
+.top-section{
+    padding:20px;
+}
+.top-title{
+    font-family: 'Bebas Neue', cursive;
+    color: #FABE4C;;
+}
+.top-para{
+    font-size: 16px;
+    line-height: 26px;
+}
+
+/* Jacket section */
+.product-section{
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.jacket-section-title{
+    font-size: 48px;
+    font-family: 'Bebas Neue', cursive;
+}
+.card-bg{
+    background-color: rgba(211, 211, 211, 0.377);
+    border-radius: 5px;
+    padding: 10px 0;
+}
+.product-title{
+    color: #363958;
+}
+.product-info{
+    color: #3E3E3E;
+}
+.product-price p{
+    color: #FABE4C;
+    font-weight: 900;
+    font-size: 26px;
+    margin-top: 5px;
+}
